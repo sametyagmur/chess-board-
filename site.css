@@ -30,3 +30,21 @@ header{
 .oddNumber{
     background-color: white;
 }
+
+@media only screen and (max-width:767px){
+    header{
+        text-align: center;
+        font-size: 18px;
+    }
+    .grid{
+        
+        border: 2px solid rgba(0, 0, 0, 0.466);
+        width: 234px;
+        height: 234px;
+        margin: 0 auto;
+     }
+     .grid div{
+        width: 24px;
+        height: 24px;
+    }
+}
