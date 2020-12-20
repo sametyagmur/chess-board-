@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(47, 110, 47, 0.788);
+}
+header{
+    text-align: center;
+    font-size: 28px;
+}
+
+.grid{
+   color: #fff;
+   border: 5px solid rgba(0, 0, 0, 0.466);
+   display: flex;
+   flex-wrap: wrap;
+   width: 450px;
+   height: 450px;
+   margin: 0 auto;
+   
+}
+
+.grid div{
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+.evenNumber{
+    background-color: rgb(104, 17, 17);
+}
+
+.oddNumber{
+    background-color: white;
+}
